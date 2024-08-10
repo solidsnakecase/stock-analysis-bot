@@ -6,7 +6,7 @@ This originally was intended to be a full dividend growth stock picker based on 
 
 ~~The API it is based around is provided by AlphaVantage, and is only designed for informative purposes only.  As such, the free tier API is limited to 25 Calls/day.  If you find the bot helpful, feel free to subscribe to their API for a higher daily limit.~~<p>
 
-I started using the yfinance library instead which has a 2000 Call/hour limit, much more than needed for this project with no API key necessary.  It still does not fully meet my needs for the dividend training boy mentioned earlier, but for this repo it works perfectly.  Even though there are more than enough calls for this project, I implemented caching all the same.<p>
+**I started using the yfinance library instead which has a 2000 Call/hour limit, much more than needed for this project with no API key necessary.  It still does not fully meet my needs for the dividend training boy mentioned earlier, but for this repo it works perfectly.  Even though there are more than enough calls for this project, I implemented caching all the same.**<p>
 
 Initially, I had intended to provide both a ChatGPT description of each choice, as well as provide an option for a web browser that shows the potential performance of the stock, but this is now out of scope as now this bot does not serve the purposes I need anymore due to the changes, and my time is rather restricted due to other priorities.<p>
 
